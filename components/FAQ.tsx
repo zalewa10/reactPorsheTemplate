@@ -28,8 +28,8 @@ export default function FAQ() {
           <AccordionItem value="item-1">
             <AccordionTrigger>How much does it cost</AccordionTrigger>
             <AccordionContent>
-              Compared to traditional methods like Wordpress it doesn't cost
-              more and delivers more performence and customizability.
+              Compared to traditional methods like Wordpress it doesnt cost more
+              and delivers more performence and customizability.
             </AccordionContent>
           </AccordionItem>
           <AccordionItem value="item-2">
