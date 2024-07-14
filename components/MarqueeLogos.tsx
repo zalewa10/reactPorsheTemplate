@@ -5,7 +5,7 @@ import { Badge } from "./ui/badge";
 
 export default function MarqueeLogos() {
   return (
-    <div className="max-w-screen-xl mx-auto pb-20">
+    <div className="max-w-screen-lg mx-auto pb-20">
       <Badge>Partners</Badge>
       <div className="flex items-center">
         <h2 className="font-bold text-4xl py-5">

@@ -15,7 +15,7 @@ export default function Services() {
         aliquam eum asperna quod minima aut.
       </p>
 
-      <div className="flex justify-between max-w-screen-xl mx-auto py-10 w-full text-center">
+      <div className="flex justify-center gap-5 max-w-screen-lg mx-auto py-10 w-full text-center">
         {BENEFITS.map((item, id) => (
           <div
             className="bg-white p-10 rounded-2xl relative shadow-md text-left"
@@ -28,7 +28,7 @@ export default function Services() {
               height={50}
               className="mb-10"
             />
-            <h4 className="max-w-xl  font-bold text-xl">{item.title}</h4>
+            <h4 className="max-w-xl font-bold text-xl">{item.title}</h4>
             <p className="max-w-xs text-gray-500">{item.text}</p>
           </div>
         ))}

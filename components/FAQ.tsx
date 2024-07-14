@@ -10,7 +10,7 @@ import {
 
 export default function FAQ() {
   return (
-    <div className="max-w-screen-xl mx-auto py-20 flex justify-between">
+    <div className="max-w-screen-lg mx-auto py-20 flex justify-between">
       <div>
         <Badge>FAQ</Badge>
         <div className="">

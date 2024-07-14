@@ -14,7 +14,7 @@ import { CheckCircledIcon, CheckIcon } from "@radix-ui/react-icons";
 
 export default function PricingCards() {
   return (
-    <div className="max-w-screen-xl mx-auto py-20">
+    <div className="max-w-screen-xl mx-auto p-20">
       <div className="text-center">
         <Badge>Pricing</Badge>
         <h2 className="max-w-xl mx-auto font-bold text-4xl py-5">
@@ -26,10 +26,14 @@ export default function PricingCards() {
         </p>
       </div>
 
-      <div className="flex items-start justify-between">
+      <div className="flex items-start justify-center gap-10">
         {PRICING_CARDS.map((card, id) => (
           <div key={id}>
-            <Card className={`${card.color ? "border border-violet-700" : ""}`}>
+            <Card
+              className={`${
+                card.color ? "border-2 border-violet-700 -mt-2" : ""
+              }`}
+            >
               <CardHeader>
                 {card.color ? (
                   <Badge className="ml-auto">{card.plan}</Badge>
@@ -46,7 +50,7 @@ export default function PricingCards() {
                   </span>
                 </CardTitle>
                 <CardDescription>
-                  <p className="text-gray-500 pb-5"> {card.text}</p>
+                  <span className="text-gray-500 pb-5"> {card.text}</span>
                 </CardDescription>
 
                 <Separator />
