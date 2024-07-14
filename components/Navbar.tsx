@@ -58,16 +58,18 @@ export default function Navbar() {
   useEffect(() => {
     const handleScroll = () => {
       const navigationBar = document.getElementById("navbar");
-      if (window.scrollY > 10) {
-        navigationBar.classList.add("bg-white", "shadow-md", "top-5");
-        navigationBar.classList.remove(
-          "bg-transparent",
-          "shadow-none",
-          "top-0"
-        );
-      } else {
-        navigationBar.classList.add("bg-transparent", "shadow-none", "top-0");
-        navigationBar.classList.remove("bg-white", "shadow-md", "top-5");
+      if (navigationBar) {
+        if (window.scrollY > 10) {
+          navigationBar.classList.add("bg-white", "shadow-md", "top-5");
+          navigationBar.classList.remove(
+            "bg-transparent",
+            "shadow-none",
+            "top-0"
+          );
+        } else {
+          navigationBar.classList.add("bg-transparent", "shadow-none", "top-0");
+          navigationBar.classList.remove("bg-white", "shadow-md", "top-5");
+        }
       }
     };
 
