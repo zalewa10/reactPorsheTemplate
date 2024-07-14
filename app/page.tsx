@@ -21,7 +21,7 @@ export default function Home() {
         <Features />
         <MarqueeLogos />
         <Baner />
-        <FAQ />
+        {/* <FAQ /> */}
         <PricingCards />
         <Newsletter />
       </div>

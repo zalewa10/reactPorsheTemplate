@@ -13,7 +13,7 @@ export default function FAQ() {
     <div className="max-w-screen-lg mx-auto py-20 flex justify-between">
       <div>
         <Badge>FAQ</Badge>
-        <div className="">
+        <div>
           <h2 className="font-bold text-4xl py-5">
             Looking for answers? <br /> We got you covered!
           </h2>
