@@ -15,7 +15,7 @@ export default function FAQ() {
         <Badge>FAQ</Badge>
         <div className="">
           <h2 className="font-bold text-4xl py-5">
-            Looking for answers? <br /> We've got you covered!
+            Looking for answers? <br /> We&apos;ve got you covered!
           </h2>
           <p className="max-w-xs text-gray-500">
             Here you can find most frequently asked questions with corresponding
