@@ -57,7 +57,9 @@ const components: { title: string; href: string; description: string }[] = [
 export default function Navbar() {
   useEffect(() => {
     const handleScroll = () => {
+      
       const navigationBar = document.getElementById("navbar");
+      
       if (navigationBar) {
         if (window.scrollY > 10) {
           navigationBar.classList.add("bg-white", "shadow-md", "top-5");
@@ -70,7 +72,7 @@ export default function Navbar() {
           navigationBar.classList.add("bg-transparent", "shadow-none", "top-0");
           navigationBar.classList.remove("bg-white", "shadow-md", "top-5");
         }
-      }
+      }else{}
     };
 
     window.addEventListener("scroll", handleScroll);
